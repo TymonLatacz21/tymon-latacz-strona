@@ -5,3 +5,9 @@ body{
 a{
     color:aqua;
 }
+header{
+    border: 2px dotted blue;
+}
+main{
+    background-color: darkblue;
+}
