@@ -9,14 +9,17 @@
         <meta name="author" content="Tymon Latacz">
         <meta name="robots" content="noindex">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
 
     </head>
     <!-- NA ZAD DOMOWE PODZIELIC STRONE NA 4 SEKCJE I KAŻDEJ JEST 1 ARTICLE. SEKCJE POD HEADERAMI, ZROBIC NAGŁÓWKI SEKCJI POD MAIN -->
     <body>
         <!-- główna część strony -->
-        <header><h1>moja pasja - gamedev</h1></header>
+        <header class="naglowek"><h1>moja pasja - <span>gamedev</span></h1></header>
         <main>
-        <p>Lubie tworzyć gry komputerowe, przeważnie strzelanki i inne gry akcji</p>
+        <p id="paragraf_wiekszy">Lubie tworzyć gry komputerowe, przeważnie strzelanki i inne gry akcji</p>
         <p>Jedną z gier, nad którą pracuję, ale nie jest jeszcze skończona to KNOD THE GAME 2.</p>
         <p>Jest to obecnie mój najbardziej ambitny projekt.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa pariatur velit, dolore voluptate ipsa numquam veniam. Fuga debitis quod, aut officia perferendis ducimus labore molestiae corporis error cum sint.</p>
@@ -25,19 +28,29 @@
         Doloribus dicta quos qui recusandae dolorem modi aut et ad alias nemo numquam praesentium molestias, quam tenetur repudiandae architecto est, laborum deleniti ea eos quo! Error corporis similique perferendis mollitia!
         Quod odit minus perferendis tempore neque, quae ea exercitationem quas, corrupti, esse sit tenetur id? Ullam eaque ea, quidem cupiditate dolores autem, alias quos a porro facere optio animi nulla?
         Error nostrum optio reprehenderit, sapiente iure, odio harum aut ipsam laboriosam molestias animi adipisci aliquid, repudiandae magni. Eius quas, reiciendis hic perferendis corrupti at dolore ea, quidem, molestiae minima placeat?</p>
-        
+        <br>
+        <p class="paragraf-testowy"><span>coś tam coś tam</span></p>
+        <br><br>
+        <p class="test">NIESAMOWITY <span>TEST</span></p>
+        <br>
+        <section>
+        <p class="left">PARAGRAF 1 asdasdasdasffdfd</p>
+        <p class="right">PARAGRAF 2 asfdsfdsfdsfdsfs</p>
+        <p class="center">PARAGRAF 3 cgfcvgvgfcghh</p>
+        <p class="justify">PARAGRAF 4 oiiiiiiiiiiiiiiiiii niesamowitye błagam zadziałaj</p>
+        </section>
 <section>
     <article>
         <header>
-            <h2>Jak zacząłem tworzyć gry komputerowe</h2>
+            <h2 class="header-1">Jak zacząłem <span>tworzyć</span> gry komputerowe</h2>
         </header>
-        <p>Zacząłem gry tworzyć w wieku około 10 lat za pomocą Scratch'a. Były to proste i nie zbyt dopracowane gry, ale dobrze się bawiłem przy ich tworzeniu</p>
+        <p>Zacząłem gry tworzyć w wieku około <span>10 lat</span> za pomocą Scratch'a. Były to proste i nie zbyt dopracowane gry, ale dobrze się bawiłem przy ich tworzeniu</p>
     </article>
 </section>
 <section>
     <article>
         <header>
-            <h2>Nauka Unity</h2>
+            <h2>Nauka <span>Unity</span></h2>
         </header>
         <p>Jeśli dobrze pamiętam, potem w wieku 12 lat mama mnie zapisała na zajęcia z budowania gier w Unity. Liczyłem na to że mnie tam też chociaż trochę nauczą programowania w C#, ale do tego nigdy nie doszło.</p>
         <p>Zamiast tego byliśmy uczeni jak "budować" gry w Unity poprostu importując jakieś gotowe asset packi i je układać w Unity.</p>
@@ -46,7 +59,7 @@
 <section>
     <article>
         <header>
-            <h2>Krótkotrwały powrót do Scratcha</h2>
+            <h2><span>Krótkotrwały</span> powrót do Scratcha</h2>
         </header>
         <p>Po zajęciach, z których nie wiele wiedzy wyniosłem, powróciłem do Scratcha. Próbowałem w nim robić jakieś ambitniejsze projekty, ale to nadal był Scratch i to w tym programie nie było możliwe</p>
         <p>Aczkolwiek pewnego dnia zagrałem w grę pt. "Nocturnals". Była ona stworzona przez dwie osoby i dowiedziałem się, że była ona stworzona w silniku który jest w sam raz dla mnie.</p>
@@ -55,26 +68,180 @@
 <section>
     <article>
         <header>
-            <h2>Nowe silniki</h2>
+            <h2><span>Nowe</span> silniki</h2>
         </header>
         <p>Pierwszym silnikiem który odkryłem i dosyć szybko nauczyłem się nim posługiwać by Construct 3. Zawiera on zarówno prawdziwe kodowanie w języku TypeScript, jeśli dobrze pamiętam oraz wizualne kodowanie przy pomocy tzw. "Eventów"</p>
         <p>Z Constructa 3 korzystam do dzisiaj i pracuję nad nowymi, ambitniejszymi projektami. Zacząłem się uczyć także korzystania z silnika o nazwie Godot</p>
-        <p>W Godocie programuje się językiem GDScript, który jest w zasadzie zmodyfikowanym Pythonem, więc uczenie się jego nie jest najtrudniejsze mimo, że nadal czasami mam problemy z błędami, bugami idt.</p>
+        <p>W Godocie programuje się językiem GDScript, który jest w zasadzie zmodyfikowanym Pythonem, więc uczenie się niego nie jest najtrudniejsze mimo, że nadal czasami mam problemy z błędami, bugami idt.</p>
     </article>
 </section>
 
 
 
+
+
         <nav>
-            <p>o mnie</p>
-            <p>o pasji</p>
-            <p>kontakt</p>
+            <a href="#">O mnie</a>
+            <a href="#">Obrazy</a>
+            <a href="#">Kontakt</a>
         </nav>
+    </br>
         
-        
-        <a href="https://validator.w3.org/nu/#file">WALIDACJA STRONY</a><br>
-        <a href="https://developer.mozilla.org/en-US/">DOKUMENTACJA MOZILLA</a></a><br>
-        <a href="https://www.w3schools.com/">W3SCHOOLS</a>
+        <ul>
+            <li><a href="https://validator.w3.org/nu/#file">WALIDACJA STRONY</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/">DOKUMENTACJA MOZILLA</a></li>
+            <li><a href="https://www.w3schools.com/">W3SCHOOLS</a></li>
+        </ul>
+        <aside>
+            <p>
+                lista przedmiotów, które dzisiaj Były
+            </p>
+                <ol> <!--w domu zrobić listy uporządkowane na jakiś tam temat z wszystkimi list-style-typami
+                    EMMET EMMET EMMET EMMET PAMIĘTAJ DEKLU-->
+                    <li>Niemiecki</li>
+                    <li>Geografia</li>
+                    <li>Programowanie aplikacji internetowych x2</li>
+                    <li>Projektowanie stron internetowych x2</li>
+                    <li>Fizyka</li>
+                    <li>Matematyka</li>
+                </ol>
+                <p>Koledzy z klasy</p>
+                <ul>
+                    <li>Łukasz Hajda</li>
+                    <li>Karol Żymełka</li>
+                    <li>Mateusz Nadolny</li>
+                    <li>Natan Łaszewski</li>
+                    <li>Borys Drabik</li>
+                    <li>Alek</li>
+                    <li>Kacper Mońka</li>
+                    <li>Wojciech <span>"Chrupek"</span> Wiechuła</li>
+                    <li>Kuba Ankudowicz</li>
+                    <li>Anastazja Bohdan</li>
+                    <li>Filip Nowak</li>
+                    <li>Jerzy Siewierski</li>
+                    <li>Tobiasz Gawron</li>
+                    <li>Piotr Skurzok</li>
+                </ul>
+                <ul class="jeden">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+                <ul class="dwa">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+                <ul class="trzy">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ul class="cztery">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+                <ol class="piec">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="szesc">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="siedem">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="osiem">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="dziewiec">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="dziesiec">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="jedenascie">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="dwanascie">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="trzynascie">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="czternascie">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+                <ol class="pietnascie">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ol>
+            <ul>
+                <li>cos tam</li>
+                <li>cos tam</li>
+                <li>cos tam</li>
+            </ul>
+            <ul class="pusty">
+                <li>cos tam</li>
+                <li>cos tam</li>
+                <li>cos tam</li>
+            </ul>
+
+            <ol class="mlitery">
+                <li>coś tam coś tam</li>
+                <li>ok</li>
+                <li>adfsgfdgdfg</li>
+            </ol>
+            <ol class="obrazek">
+                <li>ok</li>
+            </ol>
+            <ul>
+                <li>Owoce
+                    <ul>
+                        <li>Japko</li>
+                        <li>Banan</li>
+                    </ul>
+                </li>
+                <li>Warzywa
+                    <ul>
+                        <li>Marchewka</li>
+                        <li>Burak</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>LISA DEFINICJI</h3>
+
+            <dl>
+                <dt>HTML</dt>
+                <dd>Język znaczników do tworzenia stron internetowych</dd>
+                <dt>CSS</dt>
+                <dd>Język używany do stylowania stron internetowych</dd>
+            </dl>
+
+            <h4>REKLAMA</h4>
+            <p>Reklamujemyyyyyyy</p>
+        </aside>
         </main>
         <section>
             <h2>
@@ -85,6 +252,6 @@
 
         </article>
 
-        <footer><p>&copy; Tymon Latacz</p></footer>
+        <footer><p class="autorstwo">&copy; Tymon Latacz</p></footer>
     </body>
 </html>

@@ -1,13 +1,137 @@
+:root{
+font-size: 15px
+
+}
+
 body{
-    background-color: black;
+    background-color: black !important;
     color:white;
 }
 a{
     color:aqua;
 }
 header{
-    border: 2px dotted blue;
+    border: 2px dotted rgb(255, 139, 240);
+    background-color: black;
+    
 }
 main{
-    background-color: darkblue;
+    border: 5px solid transparent;
+    background-color: black;
+    border-image: linear-gradient(to right, cyan, rgb(255, 139, 240));
+    border-image-slice: 1;
+    font-family: "Comic Relief", system-ui;
 }
+/* #paragraf_wiekszy{
+    font-size: 2em;
+}
+.paragraf_wiekszy{
+    font-size: 10px;
+} */
+
+
+p{
+    font-size: 15px !important;
+
+}
+h1 span{
+    color: cyan
+}
+.paragraf-testowy span{
+    color: palevioletred
+}
+.test span{
+    color:blueviolet /*span to znacznik w html'u, który pozwala stylować specyficzne elementy tekstu*/
+}
+h2 span{
+    color: rgb(255, 139, 240);
+}
+li span{
+    color: rgb(255, 139, 240);
+}
+.left{
+    text-align: left;
+    text-transform: capitalize;
+}
+.right{
+    text-align: right;
+    text-transform:lowercase;
+}
+.center{
+    text-align: center;
+    text-transform:uppercase;
+}
+.justify{
+    text-align: justify;
+}
+.autorstwo{
+    color:palevioletred;
+}
+.naglowek{
+    text-shadow: 1px 2px 2px pink;
+    border: solid rgb(255, 139, 240); /*text-decoration spraw aby linki nie byly podkreslone */
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:disc;
+}
+.pusty{
+    list-style-type:square;
+}
+.mlitery{
+    list-style-type: lower-alpha;
+}
+.obrazek{
+    list-style-image: url('punktor.jpg');
+}
+.jeden{
+    list-style-type:circle;
+}
+.dwa{
+    list-style-type:disc;
+}
+.trzy{
+    list-style-type:square;
+}
+.cztery{
+    list-style-type:none;
+}
+.piec{
+    list-style-type:decimal;
+}
+.szesc{
+    list-style-type:decimal-leading-zero;
+}
+.siedem{
+    list-style-type:upper-latin;
+}
+.osiem{
+    list-style-type:upper-roman;
+}
+.dziewiec{
+    list-style-type:lower-latin;
+}
+.dziesiec{
+    list-style-type:lower-roman;
+}
+.jedenascie{
+    list-style-type:armenian;
+}
+.dwanascie{
+    list-style-type:georgian;
+}
+.trzynascie{
+    list-style-type: upper-alpha;
+}
+.czternascie{
+    list-style-type: lower-alpha;
+}
+.pietnascie{
+    list-style-type: lower-greek;
+}
+
+/*#- odwołanie do identyfikatora . - odwołanie do klasy*/
+/* em bierze rozmiar fontu od najbliższego rodzica z rem z roota */
+/* najlepiej stylować w style.css (osobnym pliku), a nie w indeksie*/
